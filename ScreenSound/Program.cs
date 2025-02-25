@@ -30,7 +30,7 @@ ep1.AdicionarConvidados("Alanzoka");
 ep1.AdicionarConvidados("Brino");
 
 Episodio ep2 = new(2, "Entrevistando o THOR", 73);
-ep1.AdicionarConvidados("Chris Hemsworth");
+ep2.AdicionarConvidados("Chris Hemsworth");
 
 Podcast podcast = new("Podcast aleatorio", "Yudi");
 podcast.AdicionarEpisodio(ep1);
