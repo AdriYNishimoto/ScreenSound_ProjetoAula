@@ -23,3 +23,16 @@ musica2.ExibirFichaTecnica();
 
 albumDoQueen.ExibirAlbumMusicasDoAlbum();
 queen.ExibirDiscografia();
+
+
+Episodio ep1 = new(1, "Alanzoka jogando com o Brino", 68);
+ep1.AdicionarConvidados("Alanzoka");
+ep1.AdicionarConvidados("Brino");
+
+Episodio ep2 = new(2, "Entrevistando o THOR", 73);
+ep1.AdicionarConvidados("Chris Hemsworth");
+
+Podcast podcast = new("Podcast aleatorio", "Yudi");
+podcast.AdicionarEpisodio(ep1);
+podcast.AdicionarEpisodio(ep2);
+podcast.ExibirDetalhes();
